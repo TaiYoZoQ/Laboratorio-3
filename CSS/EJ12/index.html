@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<title>Ejercicio 12 CSS</title>
+		
+		<style>
+			
+			#contenedor {
+			
+				background-color: skyblue;
+				margin: auto;
+				width: 800px;
+				height: 800px;
+			}
+			
+			.columna{
+				
+				width: 35%;
+				height: 100px;
+				border: 3px solid;
+				border-color: white;
+				border-radius: 25px;
+				box-sizing: border-box;
+				margin: auto;
+			}
+			
+			#first {
+				background:radial-gradient(#F08080, #A52A2A, #8B0000);
+			}
+			
+			#second {
+				background:radial-gradient(#7FFF00, #008000, #006400);
+			}
+			
+			#third {
+				background:radial-gradient(#48D1CC, #00008B, #191970);
+			}
+			
+			#fourth {
+				background:radial-gradient(white, lightslategray, black);
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+	
+		<div id="contenedor">
+		
+			<header>
+				
+				<h2>DIVs en columna</h2>
+				
+			</header>
+			
+			<main>
+			
+				<div id="first" class="columna"></div>
+				<div id="second" class="columna"></div>
+				<div id="third" class="columna"></div>
+				<div id="fourth" class="columna"></div>
+				<div id="third" class="columna"></div>
+				<div id="second" class="columna"></div>
+				<div id="first" class="columna"></div>
+				
+			</main>
+		</div>
+	</body>
+</html>

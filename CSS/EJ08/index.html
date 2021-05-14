@@ -1,0 +1,65 @@
+<!DOCTYPE html/>
+
+<html>
+	<head>
+		<title>Ejercicio 08 CSS</title>
+		<meta charset="UTF-8"/>
+		
+		<style>
+			
+			.contenedor {
+				float: center;
+				weidth: 50%;
+				height: 100%;
+				margin: auto;
+			}
+			
+			.original {
+				float: left;
+				padding-left: 20px;
+				width: 500px;
+				height: 450px;
+			}	
+
+			.cincuenta{
+				float: center;
+				padding-left: 520px;
+				width: 50%;
+				height: 50%;
+			}
+
+			.nocede{
+				float:left;
+				width: 50%;
+				height: 45%;
+				min-width: 350;
+				min-height: 300;
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		<header>
+			<h2>Divs internos relativos porcentuales</h2>
+		</header>
+		
+		<main>
+			<div class="contenedor">
+			
+				<div>
+					<img src="./uno.jpg" class="original"/>
+				</div>
+				
+				<div>
+					<img src="./dos.jpg" class="cincuenta"/>
+				</div>
+				
+				<div>
+					<img src="./tres.jpg" class="nocede"/>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
