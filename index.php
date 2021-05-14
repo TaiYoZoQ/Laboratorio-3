@@ -10,9 +10,7 @@
 		</header>
 		<main>
 			<ul>
-				<li><a href="./HTML">HTML</a></li>
-				<li><a href="./JS">JS</a></li>
-				<li><a href="./CSS">CSS</a></li>
+				<li><a href="./HTML">JS</a></li>
 			</ul>
 		</main>
 	</body>
